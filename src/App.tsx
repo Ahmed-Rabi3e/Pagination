@@ -58,7 +58,7 @@ function App() {
             >
               <IoIosArrowBack size={30} />
             </button>
-            {data.map((item, index) => {
+            {data.map((_item, index) => {
               return (
                 <button
                   key={index}
